@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.917);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+
+form {
+  width: 40%;
+  margin: 40px auto;
+  box-shadow: 2px 2px 10px white;
+  display: grid;
+  gap: 16px;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+form div input {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(39, 37, 37);
+}
+
+form div input:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+form button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: semi-bold;
+  margin-top: 20px;
+  transition: 0.5s all ease;
+  background-color: rgb(91, 159, 238);
+}
+
+form button:hover {
+  background-color: rgb(54, 137, 233);
+}
